@@ -30,16 +30,24 @@
 
 # 4 - Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
 
-texto: str = 'O rato roeu a roupa do rei de roma'
-dicionario: dict = {}
+# texto: str = 'O rato roeu a roupa do rei de roma'
+# dicionario: dict = {}
 
-for char in texto:
-    if char in dicionario:
-        dicionario[char] += 1
-    else: 
-        dicionario[char] = 1
+# for char in texto:
+#     if char in dicionario:
+#         dicionario[char] += 1
+#     else: 
+#         dicionario[char] = 1
 
-print(dicionario)
+# print(dicionario)
 
 
 # 5 - Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
+
+produtos_comprados: dict = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
+
+valor_compras: list = produtos_comprados.values()
+
+total_compra: float = sum(valor_compras)
+
+print(total_compra) 
