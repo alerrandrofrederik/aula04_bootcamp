@@ -44,10 +44,24 @@
 
 # 5 - Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
 
-produtos_comprados: dict = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
+# produtos_comprados: dict = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
 
-valor_compras: list = produtos_comprados.values()
+# valor_compras: list = produtos_comprados.values()
 
-total_compra: float = sum(valor_compras)
+# total_compra: float = sum(valor_compras)
 
-print(total_compra) 
+# print(total_compra) 
+
+# Exercícios com Dicionários
+# Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
+
+produtos = [
+    {"id": 1, "nome": "Teclado", "preço": 100},
+    {"id": 2, "nome": "Mouse", "preço": 80},
+    {"id": 3, "nome": "Monitor", "preço": 300}
+]
+
+produtos[1]["preço"] = 50 #altera
+
+print(produtos[1]["preço"])
+
