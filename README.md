@@ -1,3 +1,3 @@
 # aula04_bootcamp
 
-reforça conteúdo da aula 04 e fazer o desafio.
+Finalizar o conteúdo da aula 04 parte de funções
